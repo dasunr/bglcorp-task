@@ -1,0 +1,24 @@
+{
+    "name": "dasunr/bgltask",
+    "type": "project",
+    "description": "BGL Corperation Solutions: Subscription Billing Task",
+    "keywords": ["bgl-task"],
+    "autoload": {
+        "psr-4": {
+            "BillingService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "nesbot/carbon": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3",
+        "fakerphp/faker": "^1.23"
+    }
+}
